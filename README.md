@@ -14,4 +14,4 @@ This site showcases my top projects, skills, and a little bit about me. Built to
 - Responsive design principles
 
 ## 📬 Contact
-Feel free to reach out via [LinkedIn](#) or email at: your.email@example.com
+Feel free to reach out via [ LinkedIn: https://www.linkedin.com/in/kusum-choudhary-a19aa42bb ] or [ email at: ckusum355@gmail.com ]
