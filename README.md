@@ -1,2 +1,17 @@
-# portfolio-website
-A personal portfolio showcasing my projects, skills, and passion for building tech products. Designed to highlight interactive, creative, and practical work with a focus on clean UI and user-friendly experiences.
+# Kusum Choudhary's Portfolio 🚀
+
+Welcome to my personal portfolio website!  
+This site showcases my top projects, skills, and a little bit about me. Built to reflect my journey in tech and my passion for creating useful and interactive applications.
+
+## 🌟 Features
+- Clean, responsive design
+- Project showcases with live demos
+- Quick links to GitHub repositories
+- Contact information
+
+## 🔧 Tech Stack
+- HTML, CSS, JavaScript
+- Responsive design principles
+
+## 📬 Contact
+Feel free to reach out via [LinkedIn](#) or email at: your.email@example.com
