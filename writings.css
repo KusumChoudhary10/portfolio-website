@@ -19,12 +19,14 @@ body {
 }
 
 main {
-    max-width: 700px;
-    margin: 60px auto;
+    max-width: 900px;
+    margin: 70px auto;
     padding: 32px;
     background: var(--color-card-background);
-    border-radius: 16px;
+    border-radius: px;
+    border-color: rgb(96, 62, 20);
     box-shadow: 0 4px 24px rgba(148,137,121,0.13);
+    
 }
 
 h1 {
