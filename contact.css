@@ -1,0 +1,113 @@
+:root {
+  --color-heading: #222831;           /* Charcoal */
+  --color-background: #DFD0B8;        /* Light beige */
+  --color-body-text: #222831;         /* Charcoal for text */
+  --color-accent-primary: #393E46;    /* Dark gray accent */
+  --color-accent-secondary: #948979;  /* Muted brown accent */
+  --color-card-background: #FFFFFF;   /* White for cards */
+  --color-border: #948979;            /* Muted brown for borders */
+  --color-complement: #393E46;
+  --transition-speed: 0.35s;
+  --border-radius: 14px;
+  --box-shadow-light: rgba(57, 62, 70, 0.15);
+  --box-shadow-hover: rgba(57, 62, 70, 0.35);
+  --font-family-heading: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-family-body: 'Open Sans', Arial, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-body-text);
+  min-height: 100vh;
+  font-family: var(--font-family-body);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1.5rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 720px;
+  width: 100%;
+}
+
+h1 {
+  font-family: var(--font-family-heading);
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.contact-card {
+  background: var(--color-card-background);
+  border: 2px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: 1.8rem 2.5rem;
+  box-shadow: 0 6px 12px var(--box-shadow-light);
+  transition: 
+    box-shadow var(--transition-speed) ease,
+    border-color var(--transition-speed) ease,
+    transform var(--transition-speed) ease;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.contact-card:hover,
+.contact-card:focus-within {
+  border-color: white;
+  box-shadow: 0 12px 28px var(--box-shadow-hover);
+  transform: translateY(-6px);
+}
+
+.contact-card a {
+  font-size: 1.15rem;
+  color: var(--color-accent-secondary);
+  text-decoration: none;
+  word-break: break-word;
+  display: block;
+  font-weight: 600;
+  transition: color var(--transition-speed) ease;
+  outline-offset: 3px;
+}
+
+.contact-card a:hover,
+.contact-card a:focus {
+  color: var(--color-complement);
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 2rem 1rem;
+  }
+
+  .contact-card {
+    padding: 1.3rem 1.6rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+}
