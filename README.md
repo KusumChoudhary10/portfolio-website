@@ -4,6 +4,7 @@ Welcome to my personal portfolio website!
 This site showcases my top projects, skills, and a little bit about me. Built to reflect my journey in tech and my passion for creating useful and interactive applications.
 
 ## 🌟 Features
+- blogs and articles
 - Clean, responsive design
 - Project showcases with live demos
 - Quick links to GitHub repositories
