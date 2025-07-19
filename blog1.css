@@ -1,0 +1,76 @@
+:root {
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Segoe UI', Tahoma, sans-serif;
+  --max-width: 800px;
+  --accent: #393E46;
+  --text: #1a1a1a;
+  --meta: #847a53;
+  --bg: #fffdfc;
+  --color-background: #DFD0B8;
+  --color-accent-primary: #393E46;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  font-family: var(--font-body);
+  color: var(--text);
+  line-height: 1.75;
+  font-size: 17px;
+  overflow-x: hidden;
+}
+
+.blog-container {
+  max-width: var(--max-width);
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.blog-header {
+  margin-bottom: 2rem;
+}
+
+.blog-title {
+  font-size: 2.8rem;
+  font-family: var(--font-heading);
+  margin-bottom: 0.5rem;
+  color: #241602;
+}
+
+.blog-meta {
+  font-size: 0.95rem;
+  color: var(--meta);
+  margin-bottom: 1.5rem;
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2.5rem auto;
+  border-radius: 8px;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+@media screen and (max-width: 600px) {
+  .blog-title {
+    font-size: 2rem;
+  }
+
+  .blog-content {
+    font-size: 16px;
+  }
+
+  .blog-container {
+    padding: 0 1rem;
+  }
+}
